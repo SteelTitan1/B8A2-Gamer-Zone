@@ -11,7 +11,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 240px 0px 240px;
+    margin: 0rem 15rem 0px 15rem;
    
 
     
@@ -63,91 +63,279 @@ line-height: normal;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 240px;
+    padding: 0 15rem;
     
 }
-.banner-1>h1{
-font-size: 48px;
+#banner-sm{
+font-size: 3rem;
 font-weight: 600;
 margin: 0px 0px;
 
 }
 .banner-1 p{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
    
 
 }
-.banner-2{
-        
-    background-image: url(/images/Group18.png);
-    
+.banner-2>img{
+width:100%
     
    
     
 }
 #goat{
-    margin-top: 0px 0px;
-font-size: 95px;
+margin-top: 0px 0px;
+font-size: 6.0rem;
 font-weight: 800;
 text-transform: uppercase;
 background: linear-gradient(180deg, #f873c3 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+margin-top: 1rem;
 }
 #button-1{
-    padding: 20px;
+    padding: 1.25rem;
     background-color:#FF42A5;
     display: inline-flex;
-    padding: 21px 50px;
+    padding: 1.3125rem 2.5rem;
     align-items: flex-start;
-    border-radius: 45px;
-    color: white;
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-right: 24px;
-    margin-top: 41px;
-    border-style: none;
-
-}
-#button-2{
-    padding: 20px;
-    background-color:#4EC5F7;;
-    display: inline-flex;
-    padding: 1.13rem 2.5rem;
-    align-items: flex-start;
-    gap: 10px;
     border-radius: 3rem;
     color: white;
     font-size: 1.25rem;
     font-weight: 600;
-    margin-top: 41px;
+    margin-right: 1.5rem;
+    margin-top: 2.56rem;
+    border-style: none;
+
+}
+#button-2{
+    padding: 1.25rem;
+    background-color:#4EC5F7;;
+    display: inline-flex;
+    padding: 1.13rem 2.5rem;
+    align-items: flex-start;
+    gap: 1.5rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2.56rem;
     border-style: none;
 
 }
 
+.banner2-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-color: rgba(255, 66, 165, 0.03);
+    background-size: 100%;
+    padding:5.94rem 0rem;
+
+
+}
+.gamers-1{
+    margin: 0 0 0 15rem;
+    width: 100%;
+    
+
+}
+
+.gamers-2{
+    margin: 0 15rem 0 0;
+    text-align: right;
+}
+.gamers-2 h2{
+    text-align: right;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.gamers-2>p{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem; 
+}
+#p-tag{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem; /* 166.667% */
+
+}
+#gamer-text{
+    width: 6.8rem;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin: 1.875rem 0 0 21.875rem;
+}
+#gamer-text:hover{
+    width: 6.68rem;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    overflow:visible;
+    margin: 1.875rem 0 0 21.875rem;
+}
+
+#gamer-image{
+    width: 50rem;
+
+}
+.card-section h2{
+    font-size: 2.8rem;
+
+
+}
+#funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15rem;
+    gap:3rem;
+    
+   
+
+}
+#card-img{
+    width: 90%;
+    
+}
+.cards {
+    /* position: relative; */
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    width: 100%;
+    
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* padding: 10px; */
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+  }
+  .play-button>i{
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+
+  }
+  .play-button>p{
+    position: absolute;
+    top:55%;
+    left:45%;
+    color: #f41b9d;
+
+    
+  }
+  
+  .cards:hover .play-button {
+    opacity: 1;
+  }
+  
+
+
+
+.cards{
+    position:relative;
+    margin: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+}
+
+#card-text{
+color: #534C64;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.875rem; /* 150% */
+text-align: left;
+
+
+}
 /* mobile screen */
 @media screen and (max-width:767px) {
     body{
-        margin: 0px;
+        
+        margin: 0px 0px;
     }
     .nav-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        margin: 0;
 
     }
     .nav-right{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap:50px;
+        gap:3.125rem;
     }
     #follow-us{
         margin: 0px;
     }
+    #goat{
+        font-size: 16VW;
+        margin: 0;
+    }
+    #banner-sm{
+        font-size: 3rem;
+        
+        }
+
+
     .banner-container{
         background-image: none;
         display: flex;
@@ -155,31 +343,181 @@ background-clip: text;
         justify-content: space-between;
         align-items: center;
         padding: 0px;
-        margin: 0px 100px;
-        
-        
-        
-        
+        margin:5rem 0 0 0;   
     }
     .banner-1{
         
         background-image: url(/images/Group14.png);
-        padding: 0 350px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
         margin: 0px;
-         
-        
+        padding: 8.19rem 0rem 9.19rem 0rem;  
     }
-    .banner-1>div{
+    .banner1-des, .banner-button{
+        padding: 1.5rem 1.5rem;
         
+        margin: 0rem 14vw;
     }
+    
+    
     .banner-2{
         
-        background-image: url(/images/Group18.png);
+        width: 100%;
 
         
     }
     .banner-button{
         display: flex;
+    }
+    .banner2-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background:none;
+        margin: 0rem 14vw;
+        padding: 0;
+       
+    
+    }
+
+    .gamers-1{
+        margin: 0;
+        width: 100%;
+   
+    }
+    
+    .gamers-2{
+       margin: 0;
+        text-align: center;
+    }
+    .gamers-2 h2{
+        margin: 0;
+    text-align: center;
+    }
+    
+    .gamers-2>p{
+        margin: 0;
+        color: #534C64;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+
+    }
+    #gamer-text{
+        width: 6.8rem;
+        white-space: nowrap;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        margin: 1.5rem 0 0 7rem;
+    }
+    #gamer-text:hover{
+        width: 6.8rem;
+        white-space: wrap;
+        text-overflow: ellipsis;
+        overflow:visible;
+        margin: 0rem 0 0 7rem;
+    }
+    #gamer-image{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .card-section{
+        margin: 0 14vw;
+
+
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0rem;
+        flex-grow: 0;
+       
+    
+        
+       
+    
+    }
+    #card-img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .cards {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+      }
+      
+      .image-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+      }
+      
+      
+      .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        /* padding: 10px; */
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        border-radius: 1.5rem;
+      }
+      .play-button>i{
+        position: absolute;
+        top:50%;
+        left:50%;
+        
+    
+      }
+      .play-button>p{
+        position: absolute;
+        top:55%;
+        left:45%;
+        color: #f41b9d;
+    
+        
+      }
+      
+      .cards:hover .play-button {
+        opacity: 1;
+      }
+      
+    
+    
+    
+    .cards{
+       
+        margin: 3rem 0rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    #card-text{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem; /* 150% */
+    text-align: left;
+    
+    
     }
     
 }
