@@ -501,6 +501,26 @@ footer h2{
     gap: 3rem;
     margin: 4rem;
 }
+.footer-cation-container{
+    display: flex;
+    justify-content: center;
+    gap:4rem;
+}
+.footer-caption{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    
+}
+#caption{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+}
+#caption1{
+    display:none;
+}
 
 
 
@@ -932,7 +952,64 @@ footer h2{
         .button-general img{
             width: auto;
         }
-       
+        footer{
+            background: #220335;
+            padding: 5rem 0rem;
+        }
+        footer h2{
+            color:white
+        }
+        .footer-links-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            padding: 0 15rem;
+            gap:3rem;
+            
+   
+            
+        
+        
+        }
+        .footer-links{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .footer-icon-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            gap: 3rem;
+            margin:0; 
+            padding: 3rem 15rem;
+        }
+        .footer-cation-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            padding: 0 10rem;
+            gap:1rem;
+        }
+        .footer-caption{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.60);
+            font-size: 1rem;
+            
+        }
+        #caption{
+            display: none;
+        }
+        
+        #caption1{
+            display: contents;
+            color: rgba(255, 255, 255, 0.60);
+            text-align: center;
+            padding: 2rem;
+            font-size: 1rem;
+        }
+        
+        
         
         
     
